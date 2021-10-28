@@ -1,0 +1,20 @@
+{
+  "name": "mnemonic2",
+  "description": "Derivation of properties from Bitcoin BIP39 wallet mnemonic",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "license": "MIT",
+  "author": "Jens Ivar Jørdre <jensivar@nahmii.io>",
+  "keywords": [
+    "ethereum",
+    "bitcoin",
+    "blockchain"
+  ],
+  "dependencies": {
+    "bip39": "^3.0.4",
+    "ethereumjs-wallet": "^1.0.2"
+  },
+  "bin": {
+    "mnemonic2": "src/index.js"
+  }
+}
